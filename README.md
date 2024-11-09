@@ -1,1 +1,3 @@
-# Digital-Diary
+Digital Diary
+
+As the name suggest, the website allows users to input text and track their emotions through a machine learning model. It allows the users to write freely and in a secured space. It predicts emotions based on the input the user inputs and creates an e-Diary sort of thing. It uses TensorFlow to predict emotions based on the user's input, with each emotion linked to an emoticon image and also it loads a pre-trained model 'Tweet_Emotion.h5' and uses a tokenizer to convert input text into sequences. The Flask backend processes and stores user data, saving entries with timestamps and emotional analysis. This diary system provides an intuitive way to reflect on moods and track emotional changes over time, combining sentiment analysis with a user-friendly interface to improve self-awareness and emotional understanding.
